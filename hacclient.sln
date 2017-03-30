@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hacclient", "hacclient\hacclient.vcxproj", "{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loader", "loader\loader.vcxproj", "{E8EAEC21-6FDB-424A-A095-93C33DF3E0EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hacencrypt", "hacencrypt\hacencrypt.vcxproj", "{A3C55EC5-87B3-4F0E-8475-04C1C68B789E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "lua\lua.vcxproj", "{B3DD30DE-FA84-4187-9AD5-AF957C86EFF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug No-AC|Win32 = Debug No-AC|Win32
+		Debug|Win32 = Debug|Win32
+		Release NASM|Win32 = Release NASM|Win32
+		Release No-AC|Win32 = Release No-AC|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}.Debug No-AC|Win32.ActiveCfg = Debug No-AC|Win32
+		{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}.Debug No-AC|Win32.Build.0 = Debug No-AC|Win32
+		{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}.Debug|Win32.Build.0 = Debug|Win32
+		{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}.Release NASM|Win32.ActiveCfg = Release No-AC|Win32
+		{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}.Release NASM|Win32.Build.0 = Release No-AC|Win32
+		{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}.Release No-AC|Win32.ActiveCfg = Release No-AC|Win32
+		{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}.Release No-AC|Win32.Build.0 = Release No-AC|Win32
+		{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}.Release|Win32.ActiveCfg = Release|Win32
+		{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}.Release|Win32.Build.0 = Release|Win32
+		{E8EAEC21-6FDB-424A-A095-93C33DF3E0EA}.Debug No-AC|Win32.ActiveCfg = Debug No-AC|Win32
+		{E8EAEC21-6FDB-424A-A095-93C33DF3E0EA}.Debug No-AC|Win32.Build.0 = Debug No-AC|Win32
+		{E8EAEC21-6FDB-424A-A095-93C33DF3E0EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8EAEC21-6FDB-424A-A095-93C33DF3E0EA}.Debug|Win32.Build.0 = Debug|Win32
+		{E8EAEC21-6FDB-424A-A095-93C33DF3E0EA}.Release NASM|Win32.ActiveCfg = Release No-AC|Win32
+		{E8EAEC21-6FDB-424A-A095-93C33DF3E0EA}.Release NASM|Win32.Build.0 = Release No-AC|Win32
+		{E8EAEC21-6FDB-424A-A095-93C33DF3E0EA}.Release No-AC|Win32.ActiveCfg = Release No-AC|Win32
+		{E8EAEC21-6FDB-424A-A095-93C33DF3E0EA}.Release No-AC|Win32.Build.0 = Release No-AC|Win32
+		{E8EAEC21-6FDB-424A-A095-93C33DF3E0EA}.Release|Win32.ActiveCfg = Release|Win32
+		{E8EAEC21-6FDB-424A-A095-93C33DF3E0EA}.Release|Win32.Build.0 = Release|Win32
+		{A3C55EC5-87B3-4F0E-8475-04C1C68B789E}.Debug No-AC|Win32.ActiveCfg = Debug|Win32
+		{A3C55EC5-87B3-4F0E-8475-04C1C68B789E}.Debug No-AC|Win32.Build.0 = Debug|Win32
+		{A3C55EC5-87B3-4F0E-8475-04C1C68B789E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3C55EC5-87B3-4F0E-8475-04C1C68B789E}.Debug|Win32.Build.0 = Debug|Win32
+		{A3C55EC5-87B3-4F0E-8475-04C1C68B789E}.Release NASM|Win32.ActiveCfg = Release|Win32
+		{A3C55EC5-87B3-4F0E-8475-04C1C68B789E}.Release NASM|Win32.Build.0 = Release|Win32
+		{A3C55EC5-87B3-4F0E-8475-04C1C68B789E}.Release No-AC|Win32.ActiveCfg = Release|Win32
+		{A3C55EC5-87B3-4F0E-8475-04C1C68B789E}.Release No-AC|Win32.Build.0 = Release|Win32
+		{A3C55EC5-87B3-4F0E-8475-04C1C68B789E}.Release|Win32.ActiveCfg = Release|Win32
+		{A3C55EC5-87B3-4F0E-8475-04C1C68B789E}.Release|Win32.Build.0 = Release|Win32
+		{B3DD30DE-FA84-4187-9AD5-AF957C86EFF2}.Debug No-AC|Win32.ActiveCfg = Debug|Win32
+		{B3DD30DE-FA84-4187-9AD5-AF957C86EFF2}.Debug No-AC|Win32.Build.0 = Debug|Win32
+		{B3DD30DE-FA84-4187-9AD5-AF957C86EFF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3DD30DE-FA84-4187-9AD5-AF957C86EFF2}.Debug|Win32.Build.0 = Debug|Win32
+		{B3DD30DE-FA84-4187-9AD5-AF957C86EFF2}.Release NASM|Win32.ActiveCfg = Release|Win32
+		{B3DD30DE-FA84-4187-9AD5-AF957C86EFF2}.Release NASM|Win32.Build.0 = Release|Win32
+		{B3DD30DE-FA84-4187-9AD5-AF957C86EFF2}.Release No-AC|Win32.ActiveCfg = Release|Win32
+		{B3DD30DE-FA84-4187-9AD5-AF957C86EFF2}.Release No-AC|Win32.Build.0 = Release|Win32
+		{B3DD30DE-FA84-4187-9AD5-AF957C86EFF2}.Release|Win32.ActiveCfg = Release|Win32
+		{B3DD30DE-FA84-4187-9AD5-AF957C86EFF2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

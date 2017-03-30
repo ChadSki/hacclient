@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug No-AC|Win32">
+      <Configuration>Debug No-AC</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release No-AC|Win32">
+      <Configuration>Release No-AC</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E4E366AE-2892-47AF-B5CF-FCB469EB39B0}</ProjectGuid>
+    <RootNamespace>hacclient</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug No-AC|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release No-AC|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug No-AC|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release No-AC|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>hac</TargetName>
+    <OutDir>..\..\..\..\..\..\..\Program Files %28x86%29\Microsoft Games\Halo Custom Edition\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug No-AC|Win32'">
+    <TargetName>hac</TargetName>
+    <OutDir>..\..\..\..\..\..\..\Program Files %28x86%29\Microsoft Games\Halo Custom Edition\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>hac</TargetName>
+    <OutDir>..\..\..\..\..\..\..\Program Files %28x86%29\Microsoft Games\Halo Custom Edition\</OutDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <IntDir>.\Release\</IntDir>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release No-AC|Win32'">
+    <TargetName>hac</TargetName>
+    <OutDir>..\..\..\..\..\..\..\Program Files %28x86%29\Microsoft Games\Halo Custom Edition\</OutDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <IntDir>.\Release\</IntDir>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <AdditionalIncludeDirectories>C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libarchive\libarchive;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\libzplay\include;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\lua\;D:\libraries\boost_1_55_0\;D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ANTICHEAT;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Ws2_32.lib;Psapi.lib;lua.lib;d3d9.lib;d3dx9.lib;dxerr.lib;libzplay_static.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libzplay\libzplay-2.02-src\decoders\libvorbis\win32\Vorbis_Static_Release;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libarchive\libarchive\MinSizeRel;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libzplay\vc++\libzplay_static\Release;D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\luajit\src;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>d3dx9_43.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+    </Link>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>"C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\Release\hacencrypt.exe" -file "$(TargetDir)$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Function encryption</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug No-AC|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <AdditionalIncludeDirectories>C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libarchive\libarchive;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\libzplay\include;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\lua\;D:\libraries\boost_1_55_0\;D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Ws2_32.lib;Psapi.lib;lua.lib;d3d9.lib;d3dx9.lib;dxerr.lib;libzplay.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libzplay\libzplay-2.02-src\decoders\libvorbis\win32\Vorbis_Static_Release;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libarchive\libarchive\MinSizeRel;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libzplay\vc++\libzplay_static\Release;D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\luajit\src;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>d3dx9_43.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+    </Link>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>"C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\Release\hacencrypt.exe" -file "$(TargetDir)$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Function encryption</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OmitFramePointers>false</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <PreprocessorDefinitions>FONT_PRIV;ANTICHEAT;NDEBUG;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <AssemblerOutput>AssemblyCode</AssemblerOutput>
+      <AdditionalIncludeDirectories>C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libarchive\libarchive;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\libzplay\include;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\lua\;D:\libraries\boost_1_55_0\;D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Ws2_32.lib;Psapi.lib;lua.lib;d3d9.lib;d3dx9.lib;dxerr.lib;libzplay_static.lib</AdditionalDependencies>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <DelayLoadDLLs>d3dx9_43.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <AdditionalLibraryDirectories>C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libzplay\libzplay-2.02-src\decoders\libvorbis\win32\Vorbis_Static_Release;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libarchive\libarchive\MinSizeRel;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libzplay\vc++\libzplay_static\Release;D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\luajit\src;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <StripPrivateSymbols>
+      </StripPrivateSymbols>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+    </Link>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>"C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\Release\hacencrypt.exe" -file "$(TargetDir)$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Function encryption</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release No-AC|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OmitFramePointers>false</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <PreprocessorDefinitions>FONT_PRIV;NDEBUG;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <AdditionalIncludeDirectories>C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libarchive\libarchive;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\libzplay\include;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\lua\;D:\libraries\boost_1_55_0\;D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Ws2_32.lib;Psapi.lib;lua.lib;d3d9.lib;d3dx9.lib;libzplay_static.lib</AdditionalDependencies>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <DelayLoadDLLs>d3dx9_43.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <AdditionalLibraryDirectories>C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libzplay\libzplay-2.02-src\decoders\libvorbis\win32\Vorbis_Static_Release;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libarchive\libarchive\MinSizeRel;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\libzplay\vc++\libzplay_static\Release;D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\luajit\src;C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <StripPrivateSymbols>
+      </StripPrivateSymbols>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+    </Link>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>"C:\Users\Btcc22\Documents\Visual Studio 2010\Projects\hacclient\Release\hacencrypt.exe" -file "$(TargetDir)$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Function encryption</Message>
+    </PostBuildEvent>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Anticheat.cpp" />
+    <ClCompile Include="Antidebug.cpp" />
+    <ClCompile Include="AppSearch.cpp" />
+    <ClCompile Include="ArgContainer.cpp" />
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="Benchmark.cpp" />
+    <ClCompile Include="Bookmarker.cpp" />
+    <ClCompile Include="BSPPatcher.cpp" />
+    <ClCompile Include="BudgetDisplay.cpp" />
+    <ClCompile Include="CrashHandler.cpp" />
+    <ClCompile Include="CustomChat.cpp" />
+    <ClCompile Include="DebugHelper.cpp" />
+    <ClCompile Include="codefinder.cpp" />
+    <ClCompile Include="console.cpp" />
+    <ClCompile Include="ConsoleCommands.cpp" />
+    <ClCompile Include="consolefix.cpp" />
+    <ClCompile Include="Direct3D.cpp" />
+    <ClCompile Include="DisplayModes.cpp" />
+    <ClCompile Include="DisplayUpdater.cpp" />
+    <ClCompile Include="EngineFunctions.cpp" />
+    <ClCompile Include="EnginePointers.cpp" />
+    <ClCompile Include="EngineState.cpp" />
+    <ClCompile Include="EngineTypes.cpp" />
+    <ClCompile Include="EventDispatcher.cpp" />
+    <ClCompile Include="EventSubscriber.cpp" />
+    <ClCompile Include="ExFlagHandler.cpp" />
+    <ClCompile Include="FancyPrint.cpp" />
+    <ClCompile Include="FontHandler.cpp" />
+    <ClCompile Include="FoVControl.cpp" />
+    <ClCompile Include="GSRedirect.cpp" />
+    <ClCompile Include="happyhttp\happyhttp.cpp" />
+    <ClCompile Include="HUDColour.cpp" />
+    <ClCompile Include="HUDScale.cpp" />
+    <ClCompile Include="InitHooks.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="jsoncpp.cpp" />
+    <ClCompile Include="Eggs.cpp" />
+    <ClCompile Include="KeyMapper.cpp" />
+    <ClCompile Include="Language.cpp" />
+    <ClCompile Include="MapChecksum.cpp" />
+    <ClCompile Include="MapDownload.cpp" />
+    <ClCompile Include="MapControl.cpp" />
+    <ClCompile Include="MotdRedirect.cpp" />
+    <ClCompile Include="Optic.cpp" />
+    <ClCompile Include="OpticAnimation.cpp" />
+    <ClCompile Include="OpticAPI.cpp" />
+    <ClCompile Include="OpticHooks.cpp" />
+    <ClCompile Include="OpticMisc.cpp" />
+    <ClCompile Include="OpticPlayback.cpp" />
+    <ClCompile Include="OpticBezier.cpp" />
+    <ClCompile Include="OpticMedal.cpp" />
+    <ClCompile Include="OpticRender.cpp" />
+    <ClCompile Include="OpticEventHandler.cpp" />
+    <ClCompile Include="OpticLua.cpp" />
+    <ClCompile Include="OpticPack.cpp" />
+    <ClCompile Include="OpticSprite.cpp" />
+    <ClCompile Include="OverlayPatcher.cpp" />
+    <ClCompile Include="PacketTranslator.cpp" />
+    <ClCompile Include="ParticleLimits.cpp" />
+    <ClCompile Include="PasswordMasker.cpp" />
+    <ClCompile Include="Patcher.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mapcache.cpp" />
+    <ClCompile Include="misc.cpp" />
+    <ClCompile Include="networking.cpp" />
+    <ClCompile Include="PatchGroup.cpp" />
+    <ClCompile Include="PowerupTimer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release No-AC|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Preferences.cpp" />
+    <ClCompile Include="QueryActions.cpp" />
+    <ClCompile Include="QueryParser.cpp" />
+    <ClCompile Include="ScopeBlur.cpp" />
+    <ClCompile Include="Sentinel.cpp" />
+    <ClCompile Include="ServerInformation.cpp" />
+    <ClCompile Include="ServerQuery.cpp" />
+    <ClCompile Include="SettingsUI.cpp" />
+    <ClCompile Include="Shared.cpp" />
+    <ClCompile Include="SharedCaves.cpp" />
+    <ClCompile Include="SightJacker.cpp" />
+    <ClCompile Include="SlotQueue.cpp" />
+    <ClCompile Include="TimerManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release No-AC|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="trex\trex.c" />
+    <ClCompile Include="UIControl.cpp" />
+    <ClCompile Include="URLEncode.cpp" />
+    <ClCompile Include="versionchanger.cpp" />
+    <ClCompile Include="xde\xde.c" />
+    <ClCompile Include="xzip\XUnzip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Anticheat.h" />
+    <ClInclude Include="Antidebug.h" />
+    <ClInclude Include="AppSearch.h" />
+    <ClInclude Include="ArgContainer.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="Benchmark.h" />
+    <ClInclude Include="Bookmarker.h" />
+    <ClInclude Include="BSPPatcher.h" />
+    <ClInclude Include="BudgetDisplay.h" />
+    <ClInclude Include="CrashHandler.h" />
+    <ClInclude Include="CustomChat.h" />
+    <ClInclude Include="DebugHelper.h" />
+    <ClInclude Include="codefinder.h" />
+    <ClInclude Include="console.h" />
+    <ClInclude Include="ConsoleCommands.h" />
+    <ClInclude Include="Direct3D.h" />
+    <ClInclude Include="DisplayModes.h" />
+    <ClInclude Include="DisplayUpdater.h" />
+    <ClInclude Include="encfont.h" />
+    <ClInclude Include="EngineState.h" />
+    <ClInclude Include="EventDispatcher.h" />
+    <ClInclude Include="ExFlagHandler.h" />
+    <ClInclude Include="FancyPrint.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="FontHandler.h" />
+    <ClInclude Include="GSRedirect.h" />
+    <ClInclude Include="HUDColour.h" />
+    <ClInclude Include="HUDScale.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="json\json-forwards.h" />
+    <ClInclude Include="json\json.h" />
+    <ClInclude Include="KeyMapper.h" />
+    <ClInclude Include="KeyMappings.h" />
+    <ClInclude Include="EngineFunctions.h" />
+    <ClInclude Include="EnginePointers.h" />
+    <ClInclude Include="events.h" />
+    <ClInclude Include="EventSubscriber.h" />
+    <ClInclude Include="FoVControl.h" />
+    <ClInclude Include="happyhttp\happyhttp.h" />
+    <ClInclude Include="IHook.h" />
+    <ClInclude Include="InitHooks.h" />
+    <ClInclude Include="Eggs.h" />
+    <ClInclude Include="Language.h" />
+    <ClInclude Include="lua.hpp" />
+    <ClInclude Include="MapChecksum.h" />
+    <ClInclude Include="MapDownload.h" />
+    <ClInclude Include="MapControl.h" />
+    <ClInclude Include="MotdRedirect.h" />
+    <ClInclude Include="opcodes.h" />
+    <ClInclude Include="Optic.h" />
+    <ClInclude Include="OpticAnimation.h" />
+    <ClInclude Include="OpticAPI.h" />
+    <ClInclude Include="OpticHooks.h" />
+    <ClInclude Include="OpticMisc.h" />
+    <ClInclude Include="OpticPlayback.h" />
+    <ClInclude Include="OpticBezier.h" />
+    <ClInclude Include="OpticException.h" />
+    <ClInclude Include="OpticMedal.h" />
+    <ClInclude Include="OpticRender.h" />
+    <ClInclude Include="OpticEventHandler.h" />
+    <ClInclude Include="OpticLua.h" />
+    <ClInclude Include="OpticPack.h" />
+    <ClInclude Include="OpticSprite.h" />
+    <ClInclude Include="OverlayPatcher.h" />
+    <ClInclude Include="PacketTranslator.h" />
+    <ClInclude Include="ParticleLimits.h" />
+    <ClInclude Include="PasswordMasker.h" />
+    <ClInclude Include="Patcher.h" />
+    <ClInclude Include="EngineTypes.h" />
+    <ClInclude Include="mapcache.h" />
+    <ClInclude Include="misc.h" />
+    <ClInclude Include="networking.h" />
+    <ClInclude Include="Packets.h" />
+    <ClInclude Include="PatchGroup.h" />
+    <ClInclude Include="PowerupTimer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release No-AC|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Preferences.h" />
+    <ClInclude Include="QueryActions.h" />
+    <ClInclude Include="QueryParser.h" />
+    <ClInclude Include="rapidxml\rapidxml.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release No-AC|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ScopeBlur.h" />
+    <ClInclude Include="Sentinel.h" />
+    <ClInclude Include="ServerInformation.h" />
+    <ClInclude Include="ServerQuery.h" />
+    <ClInclude Include="SettingsUI.h" />
+    <ClInclude Include="SettingsUIEnums.h" />
+    <ClInclude Include="Shared.h" />
+    <ClInclude Include="SharedCaves.h" />
+    <ClInclude Include="SightJacker.h" />
+    <ClInclude Include="SlotQueue.h" />
+    <ClInclude Include="TagTypes.h" />
+    <ClInclude Include="TimerManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release No-AC|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="trex\TRexpp.h" />
+    <ClInclude Include="UIControl.h" />
+    <ClInclude Include="URLEncode.h" />
+    <ClInclude Include="versionchanger.h" />
+    <ClInclude Include="xde\xde.h" />
+    <ClInclude Include="xzip\XUnzip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hacclient.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hac.ico" />
+    <None Include="timings.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

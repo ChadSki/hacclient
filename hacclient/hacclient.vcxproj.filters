@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{69fcb8f5-ce2e-4631-8e0d-566bf9840b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{cdb15c93-7c52-4608-a0bc-765fb9d20b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\happyhttp">
+      <UniqueIdentifier>{9fda1c58-077b-463e-98c5-2888112cf23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\json">
+      <UniqueIdentifier>{d296120a-5954-4cd1-8a76-3ec739e671fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\rapidxml">
+      <UniqueIdentifier>{29d3925c-67e9-4ae7-857b-ec706ec072c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\trex">
+      <UniqueIdentifier>{6ad76d46-1ce9-47c6-898d-9695744aa993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\xzip">
+      <UniqueIdentifier>{551d1e6c-e915-4b64-9f11-572c9d8443ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features">
+      <UniqueIdentifier>{8404582b-8cb5-4294-a977-af5b1c6088fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Map Cache">
+      <UniqueIdentifier>{c6d1c675-c705-4ae2-a59b-2475a113fd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Map Downloader">
+      <UniqueIdentifier>{00446245-5e56-4ddd-bd7d-9ab45f835b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Version Changer">
+      <UniqueIdentifier>{932093c7-6223-4bf6-bd00-a88f89103118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\SJ">
+      <UniqueIdentifier>{84912be4-6214-44e9-8c5a-ba38d7990072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Power-up Timers">
+      <UniqueIdentifier>{81a1c37e-827e-426a-b484-44e1231b7279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\FoV">
+      <UniqueIdentifier>{34adf273-963c-436a-afa5-ce65df577686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Slot Queue">
+      <UniqueIdentifier>{16413e70-59de-464d-bf16-0875e828fc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Anticheat">
+      <UniqueIdentifier>{3a90d497-92f4-431d-9443-8a5af457bf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{5d55ca17-a767-44a5-bc7c-6d6614d94425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Hook Helpers">
+      <UniqueIdentifier>{8636643c-cb45-43d0-b92d-4e5e725e7bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Input Handling">
+      <UniqueIdentifier>{fcc5742c-0140-4989-a245-1fe304268ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Networking">
+      <UniqueIdentifier>{f7251bcd-b36b-4863-a718-8b4f74d8d2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\BSP Patcher">
+      <UniqueIdentifier>{2a35e337-3674-4d7c-8e45-c59ec5bf8d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\BSP Budget">
+      <UniqueIdentifier>{8fb43773-9108-434f-9c74-75446e0732d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\MotD">
+      <UniqueIdentifier>{0cc5dbb7-1c1c-4b44-b12b-435221ce7eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Engine Interaction">
+      <UniqueIdentifier>{7d4c8bc1-4a16-4b3d-b0f4-972dbafadbc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Event System">
+      <UniqueIdentifier>{0ad1ec47-3e18-424a-91c8-1514e6dd524a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Server Query">
+      <UniqueIdentifier>{2fc1c3b4-99d1-474f-8ff9-8f617c890bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Preferences Manager">
+      <UniqueIdentifier>{b2fd50dd-d711-422f-95f5-b057bd6a8978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utility">
+      <UniqueIdentifier>{6f5d8918-b6a0-4d3c-a3a6-341ecae0f271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utility\Map Checksum">
+      <UniqueIdentifier>{7c3fb92e-328e-49e0-abcf-5c3518b28e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Engine Interaction\Splash Control">
+      <UniqueIdentifier>{c5466805-5ace-45c3-9961-14b14a9831fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Engine Interaction\Map Control">
+      <UniqueIdentifier>{770502a2-e60b-4724-bdde-f3be6331ba17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utility\Debugging">
+      <UniqueIdentifier>{fdea5303-d6ca-4150-8106-f8db7f4d5b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Crash Handler">
+      <UniqueIdentifier>{1b96da98-c379-46f6-803b-da681856ddaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Console Patch">
+      <UniqueIdentifier>{047d7ebb-c84e-44d4-943d-0ee10417d657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Engine Interaction\Console Print">
+      <UniqueIdentifier>{876f8017-672e-4dd6-a96a-8f141e40ae6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utility\URL Encode">
+      <UniqueIdentifier>{e9ca0a49-a375-47c4-a524-1e0a8b370b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utility\Base64">
+      <UniqueIdentifier>{8497145d-6f78-4e2a-ab36-7c9851d3a353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Fancy Printing">
+      <UniqueIdentifier>{4d3cfddf-034c-4a0c-a794-781661aed762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utility\Misc">
+      <UniqueIdentifier>{1003218b-09be-49a2-9f46-c54152fbb4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Event Caves">
+      <UniqueIdentifier>{84ac9bb8-fdd1-46bb-a0a3-d77e538b6ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Statistics">
+      <UniqueIdentifier>{b0faaca9-eb4a-4b1c-8e6c-a33970b79cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\HUD Scale">
+      <UniqueIdentifier>{d725fac7-a228-4a5a-bbfb-1078f89b4beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Language Helper">
+      <UniqueIdentifier>{d61ef405-62b2-4432-8584-8c942d31bb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utility\Benchmarking">
+      <UniqueIdentifier>{8209eb53-a4a9-438d-b0db-edec65ca2ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utility\Resource Wrappers">
+      <UniqueIdentifier>{f99d6bd9-66b1-4943-b180-b9332e329292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utility\Application Locator">
+      <UniqueIdentifier>{e804f341-cf50-4ed3-8ea2-85baa90cfb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\HUD Colour">
+      <UniqueIdentifier>{2331d3cd-6daa-4e0b-93b8-04c990295430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Eggs">
+      <UniqueIdentifier>{bee7d53e-319f-403f-8052-14f46e57d3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Custom Chat">
+      <UniqueIdentifier>{87e9053a-c83b-437b-910c-72fcac94108d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Hook Helpers\xde">
+      <UniqueIdentifier>{fece5496-4518-4c36-b519-1d57aa7697e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Scope Blur">
+      <UniqueIdentifier>{4eb8bcb0-faf4-4d61-8ce9-f00a148373ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Particle Limits">
+      <UniqueIdentifier>{16747b0a-adac-47d1-af28-4b8b090da176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Optic">
+      <UniqueIdentifier>{8406190e-aac2-4ece-b061-8387c8bf6f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Display Modes">
+      <UniqueIdentifier>{ae517d2e-e715-4e26-8cae-84769dccb585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utility\Font Handler">
+      <UniqueIdentifier>{94986605-b09d-449b-8017-d91574ece5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Settings UI">
+      <UniqueIdentifier>{30be6ea2-06f2-49bf-adcc-b8674796d1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Bookmarks">
+      <UniqueIdentifier>{10983e26-e9a1-4759-af5e-cd1a2210268d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\GS Redirect">
+      <UniqueIdentifier>{a1fda5ab-3b61-49be-beec-bb9fe82bdfeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="happyhttp\happyhttp.cpp">
+      <Filter>Libraries\happyhttp</Filter>
+    </ClCompile>
+    <ClCompile Include="xzip\XUnzip.cpp">
+      <Filter>Libraries\xzip</Filter>
+    </ClCompile>
+    <ClCompile Include="Patcher.cpp">
+      <Filter>Source Files\Core\Hook Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="codefinder.cpp">
+      <Filter>Source Files\Core\Hook Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchGroup.cpp">
+      <Filter>Source Files\Core\Hook Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="trex\trex.c">
+      <Filter>Libraries\trex</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>Libraries\json</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDScale.cpp">
+      <Filter>Source Files\Features\HUD Scale</Filter>
+    </ClCompile>
+    <ClCompile Include="mapcache.cpp">
+      <Filter>Source Files\Features\Map Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDownload.cpp">
+      <Filter>Source Files\Features\Map Downloader</Filter>
+    </ClCompile>
+    <ClCompile Include="FoVControl.cpp">
+      <Filter>Source Files\Features\FoV</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineState.cpp">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineFunctions.cpp">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerupTimer.cpp">
+      <Filter>Source Files\Features\Power-up Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="SightJacker.cpp">
+      <Filter>Source Files\Features\SJ</Filter>
+    </ClCompile>
+    <ClCompile Include="versionchanger.cpp">
+      <Filter>Source Files\Features\Version Changer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>Source Files\Features\Power-up Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="Bookmarker.cpp">
+      <Filter>Source Files\Features\Bookmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleCommands.cpp">
+      <Filter>Source Files\Core\Input Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Source Files\Core\Input Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotQueue.cpp">
+      <Filter>Source Files\Features\Slot Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="networking.cpp">
+      <Filter>Source Files\Core\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketTranslator.cpp">
+      <Filter>Source Files\Core\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="BSPPatcher.cpp">
+      <Filter>Source Files\Features\BSP Patcher</Filter>
+    </ClCompile>
+    <ClCompile Include="BudgetDisplay.cpp">
+      <Filter>Source Files\Features\BSP Budget</Filter>
+    </ClCompile>
+    <ClCompile Include="MotdRedirect.cpp">
+      <Filter>Source Files\Features\MotD</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSubscriber.cpp">
+      <Filter>Source Files\Core\Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerQuery.cpp">
+      <Filter>Source Files\Core\Server Query</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryParser.cpp">
+      <Filter>Source Files\Core\Server Query</Filter>
+    </ClCompile>
+    <ClCompile Include="Preferences.cpp">
+      <Filter>Source Files\Core\Preferences Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayUpdater.cpp">
+      <Filter>Source Files\Core\Engine Interaction\Splash Control</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayPatcher.cpp">
+      <Filter>Source Files\Core\Engine Interaction\Splash Control</Filter>
+    </ClCompile>
+    <ClCompile Include="MapChecksum.cpp">
+      <Filter>Source Files\Core\Utility\Map Checksum</Filter>
+    </ClCompile>
+    <ClCompile Include="MapControl.cpp">
+      <Filter>Source Files\Core\Engine Interaction\Map Control</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugHelper.cpp">
+      <Filter>Source Files\Core\Utility\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="CrashHandler.cpp">
+      <Filter>Source Files\Core\Crash Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="consolefix.cpp">
+      <Filter>Source Files\Features\Console Patch</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Source Files\Core\Engine Interaction\Console Print</Filter>
+    </ClCompile>
+    <ClCompile Include="URLEncode.cpp">
+      <Filter>Source Files\Core\Utility\URL Encode</Filter>
+    </ClCompile>
+    <ClCompile Include="UIControl.cpp">
+      <Filter>Source Files\Core\Engine Interaction\Splash Control</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Source Files\Core\Utility\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="FancyPrint.cpp">
+      <Filter>Source Files\Features\Fancy Printing</Filter>
+    </ClCompile>
+    <ClCompile Include="ExFlagHandler.cpp">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgContainer.cpp">
+      <Filter>Source Files\Core\Input Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="InitHooks.cpp">
+      <Filter>Source Files\Core\Hook Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Source Files\Core\Utility\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedCaves.cpp">
+      <Filter>Source Files\Core\Event Caves</Filter>
+    </ClCompile>
+    <ClCompile Include="Anticheat.cpp">
+      <Filter>Source Files\Anticheat</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDispatcher.cpp">
+      <Filter>Source Files\Core\Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sentinel.cpp">
+      <Filter>Source Files\Anticheat</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerInformation.cpp">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="Language.cpp">
+      <Filter>Source Files\Core\Language Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Antidebug.cpp">
+      <Filter>Source Files\Anticheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Benchmark.cpp">
+      <Filter>Source Files\Core\Utility\Benchmarking</Filter>
+    </ClCompile>
+    <ClCompile Include="AppSearch.cpp">
+      <Filter>Source Files\Core\Utility\Application Locator</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared.cpp">
+      <Filter>Source Files\Core\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="PasswordMasker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryActions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineTypes.cpp">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDColour.cpp">
+      <Filter>Source Files\Features\HUD Colour</Filter>
+    </ClCompile>
+    <ClCompile Include="Eggs.cpp">
+      <Filter>Source Files\Features\Eggs</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePointers.cpp">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="Optic.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticPack.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticEventHandler.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticAPI.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticLua.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticRender.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticMedal.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>Source Files\Core\Event Caves</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticAnimation.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticBezier.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticSprite.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticPlayback.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomChat.cpp">
+      <Filter>Source Files\Features\Custom Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="xde\xde.c">
+      <Filter>Source Files\Core\Hook Helpers\xde</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeBlur.cpp">
+      <Filter>Source Files\Features\Scope Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleLimits.cpp">
+      <Filter>Source Files\Features\Particle Limits</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMapper.cpp">
+      <Filter>Source Files\Core\Input Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayModes.cpp">
+      <Filter>Source Files\Features\Display Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="FontHandler.cpp">
+      <Filter>Source Files\Core\Utility\Font Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsUI.cpp">
+      <Filter>Source Files\Features\Settings UI</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticHooks.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticMisc.cpp">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClCompile>
+    <ClCompile Include="GSRedirect.cpp">
+      <Filter>Source Files\Features\GS Redirect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="happyhttp\happyhttp.h">
+      <Filter>Libraries\happyhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="xzip\XUnzip.h">
+      <Filter>Libraries\xzip</Filter>
+    </ClInclude>
+    <ClInclude Include="Patcher.h">
+      <Filter>Source Files\Core\Hook Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchGroup.h">
+      <Filter>Source Files\Core\Hook Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="codefinder.h">
+      <Filter>Source Files\Core\Hook Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml\rapidxml.hpp">
+      <Filter>Libraries\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="IHook.h">
+      <Filter>Source Files\Core\Hook Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="trex\TRexpp.h">
+      <Filter>Libraries\trex</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>Libraries\json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json-forwards.h">
+      <Filter>Libraries\json</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineFunctions.h">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePointers.h">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineState.h">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineTypes.h">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="FoVControl.h">
+      <Filter>Source Files\Features\FoV</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDownload.h">
+      <Filter>Source Files\Features\Map Downloader</Filter>
+    </ClInclude>
+    <ClInclude Include="mapcache.h">
+      <Filter>Source Files\Features\Map Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="SightJacker.h">
+      <Filter>Source Files\Features\SJ</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerupTimer.h">
+      <Filter>Source Files\Features\Power-up Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>Source Files\Features\Power-up Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bookmarker.h">
+      <Filter>Source Files\Features\Bookmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMappings.h">
+      <Filter>Source Files\Core\Input Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Source Files\Core\Input Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleCommands.h">
+      <Filter>Source Files\Core\Input Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotQueue.h">
+      <Filter>Source Files\Features\Slot Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="networking.h">
+      <Filter>Source Files\Core\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="versionchanger.h">
+      <Filter>Source Files\Features\Version Changer</Filter>
+    </ClInclude>
+    <ClInclude Include="Packets.h">
+      <Filter>Source Files\Core\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketTranslator.h">
+      <Filter>Source Files\Core\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDScale.h">
+      <Filter>Source Files\Features\HUD Scale</Filter>
+    </ClInclude>
+    <ClInclude Include="BSPPatcher.h">
+      <Filter>Source Files\Features\BSP Patcher</Filter>
+    </ClInclude>
+    <ClInclude Include="BudgetDisplay.h">
+      <Filter>Source Files\Features\BSP Budget</Filter>
+    </ClInclude>
+    <ClInclude Include="MotdRedirect.h">
+      <Filter>Source Files\Features\MotD</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>Source Files\Core\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSubscriber.h">
+      <Filter>Source Files\Core\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerQuery.h">
+      <Filter>Source Files\Core\Server Query</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryParser.h">
+      <Filter>Source Files\Core\Server Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Preferences.h">
+      <Filter>Source Files\Core\Preferences Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayPatcher.h">
+      <Filter>Source Files\Core\Engine Interaction\Splash Control</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayUpdater.h">
+      <Filter>Source Files\Core\Engine Interaction\Splash Control</Filter>
+    </ClInclude>
+    <ClInclude Include="MapChecksum.h">
+      <Filter>Source Files\Core\Utility\Map Checksum</Filter>
+    </ClInclude>
+    <ClInclude Include="MapControl.h">
+      <Filter>Source Files\Core\Engine Interaction\Map Control</Filter>
+    </ClInclude>
+    <ClInclude Include="CrashHandler.h">
+      <Filter>Source Files\Core\Crash Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Source Files\Core\Engine Interaction\Console Print</Filter>
+    </ClInclude>
+    <ClInclude Include="URLEncode.h">
+      <Filter>Source Files\Core\Utility\URL Encode</Filter>
+    </ClInclude>
+    <ClInclude Include="UIControl.h">
+      <Filter>Source Files\Core\Engine Interaction\Splash Control</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Source Files\Core\Utility\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugHelper.h">
+      <Filter>Source Files\Core\Utility\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="FancyPrint.h">
+      <Filter>Source Files\Features\Fancy Printing</Filter>
+    </ClInclude>
+    <ClInclude Include="ExFlagHandler.h">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="opcodes.h">
+      <Filter>Source Files\Core\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgContainer.h">
+      <Filter>Source Files\Core\Input Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="InitHooks.h">
+      <Filter>Source Files\Core\Hook Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Source Files\Core\Utility\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerInformation.h">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="Anticheat.h">
+      <Filter>Source Files\Anticheat</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDispatcher.h">
+      <Filter>Source Files\Core\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Sentinel.h">
+      <Filter>Source Files\Anticheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Language.h">
+      <Filter>Source Files\Core\Language Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Antidebug.h">
+      <Filter>Source Files\Anticheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Benchmark.h">
+      <Filter>Source Files\Core\Utility\Benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Source Files\Core\Utility\Resource Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="AppSearch.h">
+      <Filter>Source Files\Core\Utility\Application Locator</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared.h">
+      <Filter>Source Files\Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordMasker.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryActions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDColour.h">
+      <Filter>Source Files\Features\HUD Colour</Filter>
+    </ClInclude>
+    <ClInclude Include="TagTypes.h">
+      <Filter>Source Files\Core\Engine Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="Eggs.h">
+      <Filter>Source Files\Features\Eggs</Filter>
+    </ClInclude>
+    <ClInclude Include="Optic.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticPack.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticEventHandler.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticAPI.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticLua.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="lua.hpp">
+      <Filter>Source Files\Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticRender.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticMedal.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>Source Files\Core\Event Caves</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticAnimation.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticBezier.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticSprite.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticException.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticPlayback.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomChat.h">
+      <Filter>Source Files\Features\Custom Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="xde\xde.h">
+      <Filter>Source Files\Core\Hook Helpers\xde</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeBlur.h">
+      <Filter>Source Files\Features\Scope Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleLimits.h">
+      <Filter>Source Files\Features\Particle Limits</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMapper.h">
+      <Filter>Source Files\Core\Input Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayModes.h">
+      <Filter>Source Files\Features\Display Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="FontHandler.h">
+      <Filter>Source Files\Core\Utility\Font Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="encfont.h">
+      <Filter>Source Files\Core\Utility\Font Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsUI.h">
+      <Filter>Source Files\Features\Settings UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsUIEnums.h">
+      <Filter>Source Files\Features\Settings UI</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticHooks.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticMisc.h">
+      <Filter>Source Files\Features\Optic</Filter>
+    </ClInclude>
+    <ClInclude Include="GSRedirect.h">
+      <Filter>Source Files\Features\GS Redirect</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedCaves.h">
+      <Filter>Source Files\Core\Event Caves</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hacclient.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="timings.xml">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="hac.ico">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
